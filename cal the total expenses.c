@@ -4,7 +4,7 @@ int main()
 	int quty,dis;
 	float rate,tot;
 	printf("enter the quantity and rate");
-	scanf("%d,%f",&quty,&rate);
+	scanf("%d%f",&quty,&rate);
 	if(quty=>1000)
 	{
 	dis=10;
